@@ -16,7 +16,7 @@ function App() {
         <Switch>
           {
             SidebarData.map(v => 
-              <Route key={v.id} path={`/${v.id}`} exact render={(props) => <Q1 {...props} SidebarData={v}/> } /> 
+              <Route key={v.id} path={`/tech/${v.id}`} exact render={(props) => <Q1 {...props} SidebarData={v}/> } /> 
             )
           }
           <Route path='/about' component={About}/>
