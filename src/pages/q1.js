@@ -13,7 +13,6 @@ const Question = ({SidebarData}) => {
   
   return (
     <div>
-     
     <LeftNavbar />
     <div className='question'>
       <div className='question-title'>
@@ -31,10 +30,9 @@ const Question = ({SidebarData}) => {
       >
       <CartesianGrid strokeDasharray="" />
       <XAxis dataKey="name"  angle={-15} textAnchor="end" interval={0}/>
-      
       <YAxis tickFormatter={toPercent} domain={[0, 60]}/>
       <Tooltip />
-      <Bar dataKey="percentage" tickFormatter={toPercent} fill="#8884d8" />
+      <Bar dataKey="percentage" tickFormatter={toPercent} fill="#b4b3c4" />
     </BarChart>
     </div>
    </div>

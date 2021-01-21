@@ -14,7 +14,7 @@ export const SidebarData = [
         'name': '11-15', 'percentage': '13.6',
       },
       {
-        'name': '16-20', 'percentage': '9.1',
+        'name': '16-20', 'percentage': '9.1%',
       },
       {
         'name': '21-30', 'percentage': '9.1',
@@ -29,7 +29,7 @@ export const SidebarData = [
         'name': '51-60', 'percentage': '2.3',
       },
       {
-        'name': '61-70', 'percentage': '0',
+        'name': '61-70', 'percentage': '0.0',
       },
       {
         'name': '71 or more', 'percentage': '22.7',
@@ -416,49 +416,49 @@ export const SidebarData = [
     ]
 
   },
-  {
-    title: 'Do you have any recommendation or advice for people who want to or are taking their first steps in your sector?',
-    id: 16,
-    path: '16',
-    'data':[
-      {
-        'name': 'test', 'percentage': '39.0',
-      },
-      {
-        'name': 'test', 'percentage': '26.8',
-      },
-      {
-        'name': 'test', 'percentage': '12.2',
-      },
-      {
-        'name': 'test', 'percentage': '4.9',
-      },
-      {
-        'name': 'test', 'percentage': '17.1',
-      },
-    ]
+  // {
+  //   title: 'Do you have any recommendation or advice for people who want to or are taking their first steps in your sector?',
+  //   id: 16,
+  //   path: '16',
+  //   'data':[
+  //     {
+  //       'name': 'test', 'percentage': '39.0',
+  //     },
+  //     {
+  //       'name': 'test', 'percentage': '26.8',
+  //     },
+  //     {
+  //       'name': 'test', 'percentage': '12.2',
+  //     },
+  //     {
+  //       'name': 'test', 'percentage': '4.9',
+  //     },
+  //     {
+  //       'name': 'test', 'percentage': '17.1',
+  //     },
+  //   ]
     
-  },
-  {
-    title: 'Anything you want to add regarding the content of this survey?',
-    id: 17,
-    path: '17',
-    'data':[
-      {
-        'name': 'test', 'percentage': '39.0',
-      },
-      {
-        'name': 'test', 'percentage': '26.8',
-      },
-      {
-        'name': 'test', 'percentage': '12.2',
-      },
-      {
-        'name': 'tests', 'percentage': '4.9',
-      },
-      {
-        'name': 'test', 'percentage': '17.1',
-      },
-    ]
-  },
+  // },
+  // {
+  //   title: 'Anything you want to add regarding the content of this survey?',
+  //   id: 17,
+  //   path: '17',
+  //   'data':[
+  //     {
+  //       'name': 'test', 'percentage': '39.0',
+  //     },
+  //     {
+  //       'name': 'test', 'percentage': '26.8',
+  //     },
+  //     {
+  //       'name': 'test', 'percentage': '12.2',
+  //     },
+  //     {
+  //       'name': 'tests', 'percentage': '4.9',
+  //     },
+  //     {
+  //       'name': 'test', 'percentage': '17.1',
+  //     },
+  //   ]
+  // },
 ]
