@@ -512,49 +512,6 @@ export const SidebarData = [
       },
     ],
   },
-  // {
-  //   title: 'Do you have any recommendation or advice for people who want to or are taking their first steps in your sector?',
-  //   id: 16,
-  //   path: '16',
-  //   'data':[
-  //     {
-  //       'name': 'test', 'percentage': '39.0',
-  //     },
-  //     {
-  //       'name': 'test', 'percentage': '26.8',
-  //     },
-  //     {
-  //       'name': 'test', 'percentage': '12.2',
-  //     },
-  //     {
-  //       'name': 'test', 'percentage': '4.9',
-  //     },
-  //     {
-  //       'name': 'test', 'percentage': '17.1',
-  //     },
-  //   ]
 
-  // },
-  // {
-  //   title: 'Anything you want to add regarding the content of this survey?',
-  //   id: 17,
-  //   path: '17',
-  //   'data':[
-  //     {
-  //       'name': 'test', 'percentage': '39.0',
-  //     },
-  //     {
-  //       'name': 'test', 'percentage': '26.8',
-  //     },
-  //     {
-  //       'name': 'test', 'percentage': '12.2',
-  //     },
-  //     {
-  //       'name': 'tests', 'percentage': '4.9',
-  //     },
-  //     {
-  //       'name': 'test', 'percentage': '17.1',
-  //     },
-  //   ]
-  // },
+
 ]

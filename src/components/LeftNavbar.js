@@ -9,7 +9,7 @@ function LeftNavbar() {
         {SidebarData.map((item, index) => {
           return (
             <li key={index} className="nav-text">
-              <Link to={item.path}>
+              <Link to={`/tech/${item.path}`}>
                 {item.icon}
                 {item.title}
               </Link>

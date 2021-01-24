@@ -14,12 +14,13 @@ function App() {
             {SidebarData.map((v) => (
               <Route
                 key={v.id}
-                path={`/${v.id}`}
                 exact
+                path={`/tech/${v.id}`}
+                
                 render={(props) => <Q1 {...props} SidebarData={v} />}
               />
             ))}
-            <Route path="/" component={About} />
+            <Route exact path="/tech/" component={About} />
           </Switch>
         </Router>
       </div>
