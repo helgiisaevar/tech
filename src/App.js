@@ -20,7 +20,6 @@ function App() {
               />
             ))}
             <Route path="/" component={About} />
-            {/* <Route path='/' component={About}/> */}
           </Switch>
         </Router>
       </div>
