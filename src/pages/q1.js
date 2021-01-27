@@ -32,15 +32,15 @@ const Question = ({ SidebarData }) => {
             }}
           >
             <CartesianGrid strokeDasharray="" />
-            <XAxis dataKey="name" angle={-15} textAnchor="end" interval={0} />
-            <YAxis tickFormatter={toPercent} domain={[0, 60]} />
+            <XAxis dataKey="name" angle={-15} textAnchor="end" interval={0} stroke="white"/>
+            <YAxis tickFormatter={toPercent} domain={[0, 60]} stroke="white" />
             <Tooltip
               cursor={{ fill: 'none', stroke: 'white', strokeWith: '8' }}
             />
             <Bar
               dataKey="percentage"
               tickFormatter={toPercent}
-              fill="#b4b3c4"
+              fill="#ebebed"
             />
           </BarChart>
         </div>
