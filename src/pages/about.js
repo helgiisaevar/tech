@@ -1,5 +1,6 @@
 import React from 'react'
 import LeftNavbar from '../components/LeftNavbar'
+import Pdf from '../components/paper.pdf';
 
 function About() {
   return (
@@ -22,7 +23,7 @@ function About() {
       </p>
       <p className="hmm">
         Several recent studies exist that draw a picture of software engineering
-        processes used worldwide, e.g., [3]. However, those studies are
+        processes used worldwide. However, those studies are
         typically based on data gathered in the US or the major European
         countries, not necessarily representative of Iceland. Due to its unique
         geographic location and focus on a limited number of domains, it is not
@@ -56,6 +57,10 @@ function About() {
         answer this question and decide which topics to study in more depth or
         which areas to specialize in.
       </p>
+      <div>
+        <p className='link'>To download the paper press the download button below.</p>
+        <a className='link' href = {Pdf} target = "_blank">Download Pdf</a>
+      </div>
     </div>
   )
 }
